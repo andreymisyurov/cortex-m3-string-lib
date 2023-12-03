@@ -1,6 +1,6 @@
 # Cortex-M3 String Library
 
-This repository contains a collection of assembly-optimized string functions tailored for the ARM Cortex-M3 microcontroller. The library includes common string operations such as `strlen`, `strcpy`, `strcmp`, and more.
+This repository contains a collection of assembly-optimized string functions tailored for the ARM Cortex-M3 microcontroller. The library includes common string operations such as `strlen`, `strcpy`, `strcmp`, `strncmp`, `strcat`, `strchr`, `strrchr`, `strstr`,  and `findchr` (func for finding char position).
 
 ## Compilation
 To compile the library, use the provided `Makefile`:
